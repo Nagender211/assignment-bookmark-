@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Small app-wide styles using Tailwind's @apply for consistency */
+.btn { @apply inline-flex items-center justify-center rounded-md px-3 py-2 text-sm font-medium transition; }
+.btn-primary { @apply bg-blue-600 text-white hover:bg-blue-700; }
+.btn-secondary { @apply bg-gray-100 text-gray-900 hover:bg-gray-200; }
+.btn-danger { @apply bg-red-600 text-white hover:bg-red-700; }
+.input { @apply w-full rounded-md border border-gray-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500; }
+.select { @apply w-full rounded-md border border-gray-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500; }
+.label { @apply text-sm font-medium text-gray-700; }
+.card { @apply rounded-lg border border-gray-200 bg-white p-4 shadow-sm; }
+.table { @apply w-full border-collapse; }
+.th { @apply border-b bg-gray-50 px-3 py-2 text-left text-sm font-semibold text-gray-700; }
+.td { @apply border-b px-3 py-2 text-sm; }
+.badge { @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium; }
+.badge-green { @apply bg-green-100 text-green-700; }
+.badge-yellow { @apply bg-yellow-100 text-yellow-700; }

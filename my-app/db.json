@@ -1,0 +1,20 @@
+{
+  "books": [
+    {
+      "id": "3",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "year": 2008,
+      "status": "Available"
+    },
+    {
+      "title": "Testing",
+      "author": "nani",
+      "genre": "Fiction",
+      "year": 2022,
+      "status": "Issued",
+      "id": "d0b8"
+    }
+  ]
+}
